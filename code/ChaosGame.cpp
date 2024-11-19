@@ -117,7 +117,7 @@ int main()
         // Draw points
         if (!points.empty()) { 
             // 4th point
-            RectangleShape pointShape(Vector2f(1, 1));
+            RectangleShape pointShape(Vector2f(10, 10));
             pointShape.setFillColor(Color::White);
             pointShape.setPosition(Vector2f(points[0].x, points[0].y));
             window.draw(pointShape);
