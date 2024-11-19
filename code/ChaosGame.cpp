@@ -89,7 +89,7 @@ int main()
         if (points.size() > 0)
         {
             // Generate more points
-            for (int i = 0; i < 6969; ++i)
+            for (int i = 0; i < 69; ++i)
             {
                 // Select random vertex
                 int rnd_point = rand() % 3; // Randomly choose one of the three vertices 
